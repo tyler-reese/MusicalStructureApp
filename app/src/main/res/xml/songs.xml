@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <songs>
+        <song>
+            <name>Song 1</name>
+            <artist>Artist 1</artist>
+            <length>2:59</length>
+        </song>
+        <song>
+            <name>Song 2</name>
+            <artist>Artist 1</artist>
+            <length>2:34</length>
+        </song>
+        <song>
+            <name>Song 3</name>
+            <artist>Artist 2</artist>
+            <length>2:57</length>
+        </song>
+        <song>
+            <name>Song 4</name>
+            <artist>Artist 2</artist>
+            <length>3:22</length>
+        </song>
+        <song>
+            <name>Song 5</name>
+            <artist>Artist 2</artist>
+            <length>3:48</length>
+        </song>
+        <song>
+            <name>Song 6</name>
+            <artist>Artist 3</artist>
+            <length>3:01</length>
+        </song>
+        <song>
+            <name>Song 7</name>
+            <artist>Artist 4</artist>
+            <length>2:49</length>
+        </song>
+        <song>
+            <name>Song 8</name>
+            <artist>Artist 5</artist>
+            <length>3:38</length>
+        </song>
+        <song>
+            <name>Song 9</name>
+            <artist>Artist 5</artist>
+            <length>4:12</length>
+        </song>
+    </songs>
+</resources>
