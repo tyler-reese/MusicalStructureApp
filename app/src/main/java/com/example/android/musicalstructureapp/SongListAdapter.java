@@ -26,10 +26,10 @@ public class SongListAdapter extends ArrayAdapter<Song>  {
         }
         final Song item = getItem(position);
 
-        TextView nameTextView = listItemView.findViewById(R.id.song_name);
+        TextView nameTextView = listItemView.findViewById(R.id.song_name_text_view);
         nameTextView.setText(item.getName());
 
-        TextView artistTextView = listItemView.findViewById(R.id.song_artist);
+        TextView artistTextView = listItemView.findViewById(R.id.song_artist_text_view);
         artistTextView.setText(item.getArtist());
 
         listItemView.setOnClickListener(new View.OnClickListener() {

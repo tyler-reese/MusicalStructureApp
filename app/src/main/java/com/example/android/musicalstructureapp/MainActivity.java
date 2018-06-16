@@ -1,13 +1,9 @@
 package com.example.android.musicalstructureapp;
 
-import android.content.res.XmlResourceParser;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import org.xmlpull.v1.XmlPullParserException;
-
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,9 +39,9 @@ public class MainActivity extends AppCompatActivity {
         songList.add(new Song("Song 19", "Artist 9", "4:31"));
         songList.add(new Song("Song 20", "Artist 9", "3:27"));
 
-        SongListAdapter adapter = new SongListAdapter(this, songList);
+        SongListAdapter songAdapter = new SongListAdapter(this, songList);
 
-        ListView listView = findViewById(R.id.list);
-        listView.setAdapter(adapter);
+        ListView songListView = findViewById(R.id.song_list_view);
+        songListView.setAdapter(songAdapter);
     }
 }
